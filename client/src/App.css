@@ -215,7 +215,7 @@ body {
 /* Hero Section */
 .hero {
   background: linear-gradient(rgba(26, 54, 93, 0.85), rgba(26, 54, 93, 0.9)), 
-              url('http://localhost:3000/images/hero-bg.jpg') center/cover no-repeat;
+              url('../public/images/hero-bg.jpg') center/cover no-repeat;
   color: white;
   padding: 6rem 0;
   min-height: 85vh;
@@ -224,6 +224,7 @@ body {
   position: relative;
   overflow: hidden;
 }
+
 
 .hero::before {
   content: '';
@@ -385,7 +386,8 @@ body {
 
 /* Team Section */
 .team-section {
-  background: url('http://localhost:3000/images/team.jpg') center/cover no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
+              url('../public/images/team.jpg') center/cover no-repeat;
   padding: 100px 0;
   text-align: center;
   color: white;
